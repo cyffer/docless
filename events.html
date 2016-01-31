@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Events</title>
+	<link rel="stylesheet" type="text/css" href="day.css">
+</head>
+<body>
+<h1>Events Gallore</h1> <br>
+<p>Get them while they last</p>
+
+<!-- <button>Day</button>
+<button>Night</button> -->
+
+<button data-file='day'>Day</button>
+<button data-file='night'>Night</button>
+
+</body>
+<script src="../bower_components/jquery/dist/jquery.js"></script>
+
+<script type="text/javascript">
+//simple way to log events
+	// $('button').click(function() {
+	// 	console.log('button was clicked')
+	// });
+//implementing keyword 'this' to capture target events
+	// $('button').click(function() {
+	// 	console.log(this);
+	// });	
+//to access jq methods wrap in '$this' dive into a pull once in the DOM
+//passing link and attr href, and value;
+	// $('button').click(function() {
+	// 	var stylesheet = $(this).text().toLowerCase();
+	// 	console.log(stylesheet)
+	// 	$('link').attr('href', stylesheet + '.css');
+	});
+//another way to capture this event is to inject attrb to buttons
+	$(button).click(function() {
+		
+		
+	});
+
+
+
+</script>
+
+</html>
